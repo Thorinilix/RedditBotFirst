@@ -28,8 +28,8 @@ for submission in subreddit.get_hot(limit = 5):
 	print submission.title
 	
 	if submission.id not in posts_replied_to:
-		if re.search("i love python", submission.title, re.IGNORECASE):
-			submission.add_comment("Nigerian scammer bot says: It's all about the Bass (and Python)")
+		if re.search(*, submission.title, re.IGNORECASE):
+			submission.add_comment("You've activated my bot card. /u/thethorinium")
 			print "Bot replying to : ", submission.title
 			posts_replied_to.append(submission.id)
 
